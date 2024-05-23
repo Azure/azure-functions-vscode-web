@@ -1,8 +1,12 @@
 name: Azure Functions VSCode Feature Request
 description: Suggest a new feature or enhancement for VSCode for the Web experience for Azure Functions.
 title: "[Feature]: <Short description of the feature>"
-labels: 
-  - enhancement
+labels: ["enhancement", "triage"]
+assignees:
+  - EvanR-Dev
+  - vrdmr
+  - kulkarnisonia16
+  - YunchuWang
 body:
   - type: markdown
     attributes:

@@ -1,8 +1,12 @@
 name: Azure Functions VSCode Bug Report
 description: File a bug report for Azure Functions VSCode for the Web experience.
 title: "[Bug]: <Short description of the bug>"
-labels: 
-  - bug
+labels: ["bug", "triage"]
+assignees:
+  - EvanR-Dev
+  - vrdmr
+  - kulkarnisonia16
+  - YunchuWang
 body:
   - type: markdown
     attributes:
