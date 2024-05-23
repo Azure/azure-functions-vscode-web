@@ -29,19 +29,19 @@ body:
         5. Include any additional steps or details that may be relevant.
 
   - type: input
-    id: function app name
+    id: function-app-name
     attributes:
       label: Function App Name
       description: Please give the name of the function app being used.
 
   - type: input
-    id: tunnel id
+    id: tunnel-id
     attributes:
       label: tunnel id
       description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form <word>-<word>-<id>.<region>. Example - joyful-horse-y7jqra5.use
 
-  - type: environment
-    id: Environment
+  - type: input
+    id: environment
     attributes:
       label: Environment
       description: Provide details about your environment (e.g., browser, version, OS, etc.).
