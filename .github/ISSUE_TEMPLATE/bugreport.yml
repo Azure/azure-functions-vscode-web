@@ -2,6 +2,18 @@ name: Azure Functions VSCode Web Bug Report
 description: File a Azure Functions VSCode bug report
 title: "Bug Title Here"
 body:
+  - type: input
+    id: function-app-name
+    attributes:
+      label: Function App Name
+      description: Please give the name of the function app being used.
+
+  - type: input
+    id: tunnel-id
+    attributes:
+      label: Tunnel ID
+      description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form [word]-[word]-[id].[region]. Example - joyful-horse-y7jqra5.use
+
   - type: textarea
     id: expected-behavior
     attributes:
@@ -27,18 +39,6 @@ body:
         3. Scroll down to [specific location].
         4. Observe [describe what you see, e.g., an error message or unexpected behavior].
         5. Include any additional steps or details that may be relevant.
-
-  - type: input
-    id: function-app-name
-    attributes:
-      label: Function App Name
-      description: Please give the name of the function app being used.
-
-  - type: input
-    id: tunnel-id
-    attributes:
-      label: Tunnel ID
-      description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form [word]-[word]-[id].[region]. Example - joyful-horse-y7jqra5.use
 
   - type: input
     id: environment
