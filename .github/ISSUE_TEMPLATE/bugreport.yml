@@ -1,0 +1,72 @@
+name: Azure Functions VSCode Web Bug Report
+description: File a Azure Functions VSCode bug report
+title: "Bug Title Here"
+body:
+  - type: textarea
+    id: function-app-name
+    attributes:
+      label: Function app name
+      placeholder: https://github.com/Azure/azure-functions-host/wiki/Sharing-Your-Function-App-name-privately
+      description: Optionally share your function app name.
+
+  - type: input
+    id: tunnel-id
+    attributes:
+      label: Tunnel ID
+      description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form [word]-[word]-[id].[region]. Example - joyful-horse-y7jqra5.use
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: What should have occurred?
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: What went wrong?
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide detailed step-by-step instructions on how to reproduce the bug.
+      placeholder: |
+        1. Go to the [specific page or section] in the application.
+        2. Click on [specific button or link].
+        3. Scroll down to [specific location].
+        4. Observe [describe what you see, e.g., an error message or unexpected behavior].
+        5. Include any additional steps or details that may be relevant.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide details about your environment (e.g., browser, version, OS, etc.).
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Add any other information about the problem here.
+
+  - type: input
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the issue.
+
+  - type: input
+    id: error-logs
+    attributes:
+      label: Error Logs
+      description: If applicable, include error logs or messages related to the bug.
+
+  - type: input
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix
+      description: If you have suggestions on how to fix the bug, please provide them here.
