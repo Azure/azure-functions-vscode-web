@@ -1,0 +1,52 @@
+name: Azure Functions VSCode Feature Request
+description: Suggest a new feature or enhancement for VSCode for the Web experience for Azure Functions.
+title: "[Feature]: <Short description of the feature>"
+labels: 
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Instructions
+        Please provide as much detail as possible about the feature you are requesting. This will help us understand your needs and prioritize the feature appropriately. Fields marked with an asterisk (*) are required.
+
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature Name *
+      description: A concise name for the feature you are requesting.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description *
+      description: A detailed description of the feature. Include any relevant information that will help us understand what you are asking for and why it is important.
+      placeholder: Describe the feature in detail.
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case *
+      description: Describe the use case(s) for the feature. How will it be used? Who will benefit from it?
+      placeholder: Provide specific examples of how the feature will be used and who will benefit from it.
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+      description: Explain the benefits of this feature. How will it improve your workflow or the overall user experience?
+      placeholder: Describe the advantages and improvements this feature will bring.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Are there any alternative solutions or workarounds you are using now? How do they compare to the requested feature?
+      placeholder: Describe any alternative solutions or workarounds.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Provide any additional information that might be relevant.
