@@ -1,31 +1,43 @@
-name: Azure Functions VSCode Web Bug Report
-description: File a Azure Functions VSCode bug report
-title: "Bug Title Here"
+name: Azure Functions VSCode Bug Report
+description: File a bug report for Azure Functions VSCode for the Web experience.
+title: "[Bug]: <Short description of the bug>"
+labels: ["bug", "triage"]
+assignees:
+  - EvanR-Dev
+  - vrdmr
+  - kulkarnisonia16
+  - YunchuWang
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Instructions
+        Please fill out the following sections to provide us with the necessary information to help diagnose and fix the bug. Fields marked with an asterisk (*) are required.
+
   - type: textarea
     id: function-app-name
     attributes:
       label: Function app name
       placeholder: https://github.com/Azure/azure-functions-host/wiki/Sharing-Your-Function-App-name-privately
-      description: Optionally share your function app name.
+      description: Please share your function app name or use invocation id to share the name privately. For more info, please go https://github.com/Azure/azure-functions-host/wiki/Sharing-Your-Function-App-name-privately.
 
   - type: input
     id: tunnel-id
     attributes:
-      label: Tunnel ID
+      label: Tunnel ID (if available)
       description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form [word]-[word]-[id].[region]. Example - joyful-horse-y7jqra5.use
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected Behavior
+      label: Expected Behavior *
       description: A clear and concise description of what you expected to happen.
       placeholder: What should have occurred?
 
   - type: textarea
     id: actual-behavior
     attributes:
-      label: Actual Behavior
+      label: Actual Behavior *
       description: A clear and concise description of what actually happened.
       placeholder: What went wrong?
 
@@ -70,3 +82,14 @@ body:
     attributes:
       label: Suggested Fix
       description: If you have suggestions on how to fix the bug, please provide them here.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Indicate the priority of the bug (e.g., Low, Medium, High).
+      default: 0
+      options:
+        - Low (happening rarely)
+        - Medium (intermittent)
+        - High (not-working at all)
