@@ -37,8 +37,8 @@ body:
   - type: input
     id: tunnel-id
     attributes:
-      label: tunnel id
-      description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form <word>-<word>-<id>.<region>. Example - joyful-horse-y7jqra5.use
+      label: Tunnel ID
+      description: If applicable, please provide the Tunnel ID. It is located in the error message or at the edge of the status bar, typically in the form [word]-[word]-[id].[region]. Example - joyful-horse-y7jqra5.use
 
   - type: input
     id: environment
