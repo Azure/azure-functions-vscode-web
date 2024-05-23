@@ -2,11 +2,12 @@ name: Azure Functions VSCode Web Bug Report
 description: File a Azure Functions VSCode bug report
 title: "Bug Title Here"
 body:
-  - type: input
+  - type: textarea
     id: function-app-name
     attributes:
-      label: Function App Name
-      description: Please give the name of the function app being used.
+      label: Function app name
+      placeholder: https://github.com/Azure/azure-functions-host/wiki/Sharing-Your-Function-App-name-privately
+      description: Optionally share your function app name.
 
   - type: input
     id: tunnel-id
